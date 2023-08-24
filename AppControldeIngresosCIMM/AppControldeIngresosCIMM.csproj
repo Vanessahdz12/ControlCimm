@@ -155,6 +155,7 @@
     <Compile Include="Datos\ClPersonalD.cs" />
     <Compile Include="Datos\ClProcesarSQL.cs" />
     <Compile Include="Datos\ClProgramaD.cs" />
+    <Compile Include="Entidades\ClPersonalE.cs" />
     <Compile Include="Entidades\ClProgramaE.cs" />
     <Compile Include="Logica\ClProgramaL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
