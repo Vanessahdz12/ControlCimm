@@ -51,7 +51,5 @@ namespace AppControldeIngresosCIMM.Datos
             return comando;
         }
 
-
-
     }
 }
