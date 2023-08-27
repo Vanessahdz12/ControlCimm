@@ -38,10 +38,10 @@
     </style>
 </head>
 <body>
+            <form runat="server">
     <div class="container">
         <h2 class="mb-4">Formulario de Registro</h2>
-        <form runat="server">
-            <div class="form-group">
+ <div class="form-group">
                 <asp:Label ID="Label1" runat="server" CssClass="form-label" Text="Documento"></asp:Label>
                 <asp:TextBox ID="txtDocumento" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
@@ -93,5 +93,7 @@
       
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        </form>
+  
 </body>
 </html>
