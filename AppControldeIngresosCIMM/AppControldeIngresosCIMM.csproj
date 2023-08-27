@@ -101,6 +101,7 @@
     <Content Include="Vista\Css\Ingreso.css" />
     <Content Include="Vista\Historial.aspx" />
     <Content Include="Vista\Ingreso.aspx" />
+    <Content Include="Vista\js\Admin.js" />
     <Content Include="Vista\js\JavaScript_Programas.js" />
     <Content Include="Vista\ListaProgramas.aspx" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.css" />
