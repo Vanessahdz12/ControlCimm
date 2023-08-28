@@ -259,7 +259,7 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Styles\sweetalert.css" /
+    <Content Include="Styles\sweetalert.css" />
     <Content Include="Vista\AdminPersonal.aspx" />
     <Content Include="Vista\Css\AdminPer.css" />
     <Content Include="Vista\Css\Estilos_RegistroPrograma.css" />
@@ -331,7 +331,7 @@
     <Content Include="Vista\Recursos\DataTables\datatables.min.css" />
     <Content Include="Vista\Recursos\DataTables\datatables.min.js" />
     <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.js" />
-    <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.min.
+    <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.min." />
     <Content Include="Vista\Registrar_Usuario.aspx" />
     <Content Include="Vista\RegistroProgramas.aspx" />
     <Content Include="Vista\Registro_Articulo.aspx" />
@@ -379,7 +379,7 @@
     <Compile Include="Vista\Historial.aspx.designer.cs">
       <DependentUpon>Historial.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Ingreso.aspx.cs">
+    <Compile Include="Vista\Ingreso.aspx.cs"/>
       <DependentUpon>Ingreso.aspx</DependentUpon>
     <Compile Include="Datos\ClGuardaD.cs" />
     <Compile Include="Datos\ClPersonaE.cs" />
@@ -494,7 +494,7 @@
     <Compile Include="Vista\Registrar_Usuario.aspx.designer.cs">
       <DependentUpon>Registrar_Usuario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\RegistroProgramas.aspx.cs">
+    <Compile Include="Vista\RegistroProgramas.aspx.cs"/>
       <DependentUpon>RegistroProgramas.aspx</DependentUpon>
     <Compile Include="Vista\RecuperarContraseñaa.aspx.cs">
       <DependentUpon>RecuperarContraseñaa.aspx</DependentUpon>
