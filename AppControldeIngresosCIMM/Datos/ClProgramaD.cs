@@ -63,7 +63,7 @@ namespace AppControldeIngresosCIMM.Datos
         {
             string ProcesoAlmacenado = "ActualizarPrograma";
             ClProcesarSQL objSQL = new ClProcesarSQL();
-            SqlCommand Actualizar = objSQL.mtdIUDConect(ProcesoAlmacenado);
+            SqlCommand Actualizar = objSQL.mtdProcesoAlmacenado(ProcesoAlmacenado);
 
             Actualizar.Parameters.AddWithValue("@Nombre_Programa", ObjPrograma.Nombre_Programa);
             Actualizar.Parameters.AddWithValue("@Ficha", ObjPrograma.Ficha);
@@ -77,13 +77,12 @@ namespace AppControldeIngresosCIMM.Datos
         {
             string consulta = "EliminarPrograma";
             ClProcesarSQL objSql = new ClProcesarSQL();
-            SqlCommand Eliminar = objSql.mtdIUDConect(consulta);
+            SqlCommand Eliminar = objSql.mtdProcesoAlmacenado(consulta);
 
             Eliminar.Parameters.AddWithValue("@idPrograma", ObjPrograma.idPrograma);
 
             int DatosActualizar = Eliminar.ExecuteNonQuery();
             return DatosActualizar;
-
         }
     }
 }
