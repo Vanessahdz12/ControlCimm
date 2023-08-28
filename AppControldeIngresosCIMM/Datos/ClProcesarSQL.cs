@@ -50,7 +50,7 @@ namespace AppControldeIngresosCIMM.Datos
             comando.CommandType = CommandType.StoredProcedure;
             return comando;
         }
-
+      
         public int mtdVerificarExistenciaCorreo(string consul)
         {
             ClConexion obConexion = new ClConexion();
