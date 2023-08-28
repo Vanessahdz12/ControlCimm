@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Registrar Usuarios</a>
+                            <a class="nav-link active" aria-current="page" href="Registrar_Usuario.aspx">Registrar Usuarios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="RegistroPrograma.aspx">Registrar Programas</a>

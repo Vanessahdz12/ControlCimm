@@ -21,16 +21,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Registrar Articulos</a>
+                        <a class="nav-link active" aria-current="page" href="Registro_Articulo.aspx">Registrar Articulos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="ListaIngresoSalidaArticulo.aspx">Ver Articulos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tipos de vehiculo</a>
+                        <a class="nav-link" href="VehiculoU.aspx">Tipos de vehiculo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Historial Vehiculo</a>
+                        <a class="nav-link" href="Historial.aspx">Historial Vehiculo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="ListaDetalladaVehiculos.aspx">Detalles Vehiculo</a>
