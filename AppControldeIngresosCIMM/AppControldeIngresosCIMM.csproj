@@ -1,4 +1,4 @@
- <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -44,9 +44,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -92,14 +89,122 @@
     <Content Include="Boostrap\js\bootstrap.esm.min.js" />
     <Content Include="Boostrap\js\bootstrap.js" />
     <Content Include="Boostrap\js\bootstrap.min.js" />
+    <Content Include="obj\Debug\TempPE\Vista.DataSet11.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Vista.DataSet21.Designer.cs.dll" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap5.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bootstrap5.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bulma.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.bulma.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.dataTables.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.dataTables.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.foundation.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.foundation.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.jqueryui.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.jqueryui.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.semanticui.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\dataTables.semanticui.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\jquery.dataTables.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\css\jquery.dataTables.min.css" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\images\sort_asc.png" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\images\sort_asc_disabled.png" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\images\sort_both.png" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\images\sort_desc.png" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\images\sort_desc_disabled.png" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap4.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap5.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bootstrap5.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bulma.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.bulma.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.dataTables.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.dataTables.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.foundation.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.foundation.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.jqueryui.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.jqueryui.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.semanticui.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\dataTables.semanticui.min.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\jquery.dataTables.js" />
+    <Content Include="Recursos\css\DataTables\DataTables-1.13.4\js\jquery.dataTables.min.js" />
+    <Content Include="Recursos\css\DataTables\datatables.css" />
+    <Content Include="Recursos\css\DataTables\datatables.js" />
+    <Content Include="Recursos\css\DataTables\datatables.min.css" />
+    <Content Include="Recursos\css\DataTables\datatables.min.js" />
+    <Content Include="Recursos\css\jQuery-3.6.0\jquery-3.6.0.js" />
+    <Content Include="Recursos\css\jQuery-3.6.0\jquery-3.6.0.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap5.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap5.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bulma.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.bulma.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.dataTables.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.dataTables.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.foundation.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.foundation.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.jqueryui.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.jqueryui.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.semanticui.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\dataTables.semanticui.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\jquery.dataTables.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\css\jquery.dataTables.min.css" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\images\sort_asc.png" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\images\sort_asc_disabled.png" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\images\sort_both.png" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\images\sort_desc.png" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\images\sort_desc_disabled.png" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap4.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap5.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bootstrap5.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bulma.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.bulma.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.dataTables.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.dataTables.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.foundation.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.foundation.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.jqueryui.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.jqueryui.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.semanticui.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\dataTables.semanticui.min.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\jquery.dataTables.js" />
+    <Content Include="Recursos\DataTables\DataTables-1.13.4\js\jquery.dataTables.min.js" />
+    <Content Include="Recursos\DataTables\datatables.css" />
+    <Content Include="Recursos\DataTables\datatables.js" />
+    <Content Include="Recursos\DataTables\datatables.min.css" />
+    <Content Include="Recursos\DataTables\datatables.min.js" />
+    <Content Include="Recursos\jQuery-3.6.0\jquery-3.6.0.js" />
+    <Content Include="Recursos\jQuery-3.6.0\jquery-3.6.0.min.js" />
     <Content Include="Scripts\sweetalert-dev.js" />
     <Content Include="Scripts\sweetalert.min.js" />
     <Content Include="Styles\sweetalert.css" />
+    <Content Include="Vista\AdminPersonal.aspx" />
     <Content Include="Vista\Css\Estilos_RegistroPrograma.css" />
     <Content Include="Vista\Css\Ingreso.css" />
-    <Content Include="Vista\Ingreso.aspx" />
+    <Content Include="Vista\DetallesVehiculos.aspx" />
+    <Content Include="Vista\Historial.aspx" />
     <Content Include="Vista\js\JavaScript_Programas.js" />
+    <Content Include="Vista\ListaDeProgramas.aspx" />
+    <Content Include="Vista\ListaDetalladaVehiculos.aspx" />
+    <Content Include="Vista\ListaIngreoPVehicular.aspx" />
+    <Content Include="Vista\listaingresopersonal.aspx" />
+    <Content Include="Vista\ListaIngresoPpeatonal.aspx" />
+    <Content Include="Vista\ListaIngresos.aspx" />
+    <Content Include="Vista\ListaIngresoSalidaArticulo.aspx" />
+    <Content Include="Vista\ListaIngresoSalidaPersonal.aspx" />
+    <Content Include="Vista\ListaPersonalProgramas.aspx" />
     <Content Include="Vista\ListaProgramas.aspx" />
+    <Content Include="Vista\RecuperarContraseñaa.aspx" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.css" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.min.css" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.css" />
@@ -147,7 +252,13 @@
     <Content Include="Vista\Recursos\DataTables\datatables.min.js" />
     <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.js" />
     <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.min.js" />
-    <Content Include="Vista\RegistroProgramas.aspx" />
+    <Content Include="Vista\Registrar_Usuario.aspx" />
+    <Content Include="Vista\RegistroPrograma.aspx" />
+    <Content Include="Vista\Registro_Articulo.aspx" />
+    <Content Include="Vista\Reportes\Reporte.aspx" />
+    <Content Include="Vista\Reportes\ReporteIngresoPeatonal.aspx" />
+    <Content Include="Vista\Reportes\ReporteIngresoVehicular.aspx" />
+    <Content Include="Vista\VehiculoU.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -159,12 +270,89 @@
     <Compile Include="Entidades\ClProgramaE.cs" />
     <Compile Include="Logica\ClProgramaL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vista\Ingreso.aspx.cs">
-      <DependentUpon>Ingreso.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Vista\AdminPersonal.aspx.cs">
+      <DependentUpon>AdminPersonal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\Ingreso.aspx.designer.cs">
-      <DependentUpon>Ingreso.aspx</DependentUpon>
+    <Compile Include="Vista\AdminPersonal.aspx.designer.cs">
+      <DependentUpon>AdminPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\DataSet1.Designer.cs" />
+    <Compile Include="Vista\DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\DataSet2.Designer.cs" />
+    <Compile Include="Vista\DataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\DetallesVehiculos.aspx.cs">
+      <DependentUpon>DetallesVehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\DetallesVehiculos.aspx.designer.cs">
+      <DependentUpon>DetallesVehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Historial.aspx.cs">
+      <DependentUpon>Historial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Historial.aspx.designer.cs">
+      <DependentUpon>Historial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaDeProgramas.aspx.cs">
+      <DependentUpon>ListaDeProgramas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaDeProgramas.aspx.designer.cs">
+      <DependentUpon>ListaDeProgramas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaDetalladaVehiculos.aspx.cs">
+      <DependentUpon>ListaDetalladaVehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaDetalladaVehiculos.aspx.designer.cs">
+      <DependentUpon>ListaDetalladaVehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngreoPVehicular.aspx.cs">
+      <DependentUpon>ListaIngreoPVehicular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngreoPVehicular.aspx.designer.cs">
+      <DependentUpon>ListaIngreoPVehicular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\listaingresopersonal.aspx.cs">
+      <DependentUpon>listaingresopersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\listaingresopersonal.aspx.designer.cs">
+      <DependentUpon>listaingresopersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoPpeatonal.aspx.cs">
+      <DependentUpon>ListaIngresoPpeatonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoPpeatonal.aspx.designer.cs">
+      <DependentUpon>ListaIngresoPpeatonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresos.aspx.cs">
+      <DependentUpon>ListaIngresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresos.aspx.designer.cs">
+      <DependentUpon>ListaIngresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaArticulo.aspx.cs">
+      <DependentUpon>ListaIngresoSalidaArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaArticulo.aspx.designer.cs">
+      <DependentUpon>ListaIngresoSalidaArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaPersonal.aspx.cs">
+      <DependentUpon>ListaIngresoSalidaPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaPersonal.aspx.designer.cs">
+      <DependentUpon>ListaIngresoSalidaPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaPersonalProgramas.aspx.cs">
+      <DependentUpon>ListaPersonalProgramas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaPersonalProgramas.aspx.designer.cs">
+      <DependentUpon>ListaPersonalProgramas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\ListaProgramas.aspx.cs">
       <DependentUpon>ListaProgramas.aspx</DependentUpon>
@@ -173,12 +361,71 @@
     <Compile Include="Vista\ListaProgramas.aspx.designer.cs">
       <DependentUpon>ListaProgramas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\RegistroProgramas.aspx.cs">
-      <DependentUpon>RegistroProgramas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Vista\RecuperarContraseñaa.aspx.cs">
+      <DependentUpon>RecuperarContraseñaa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\RegistroProgramas.aspx.designer.cs">
-      <DependentUpon>RegistroProgramas.aspx</DependentUpon>
+    <Compile Include="Vista\RecuperarContraseñaa.aspx.designer.cs">
+      <DependentUpon>RecuperarContraseñaa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Registrar_Usuario.aspx.cs">
+      <DependentUpon>Registrar_Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Registrar_Usuario.aspx.designer.cs">
+      <DependentUpon>Registrar_Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\RegistroPrograma.aspx.cs">
+      <DependentUpon>RegistroPrograma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\RegistroPrograma.aspx.designer.cs">
+      <DependentUpon>RegistroPrograma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Registro_Articulo.aspx.cs">
+      <DependentUpon>Registro_Articulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Registro_Articulo.aspx.designer.cs">
+      <DependentUpon>Registro_Articulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\Reporte.aspx.cs">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\Reporte.aspx.designer.cs">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\ReporteIngresoPeatonal.aspx.cs">
+      <DependentUpon>ReporteIngresoPeatonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\ReporteIngresoPeatonal.aspx.designer.cs">
+      <DependentUpon>ReporteIngresoPeatonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\ReporteIngresoVehicular.aspx.cs">
+      <DependentUpon>ReporteIngresoVehicular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Reportes\ReporteIngresoVehicular.aspx.designer.cs">
+      <DependentUpon>ReporteIngresoVehicular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site3.Master.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Site3.Master.designer.cs">
+      <DependentUpon>Site3.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VehiculoU.aspx.cs">
+      <DependentUpon>VehiculoU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\VehiculoU.aspx.designer.cs">
+      <DependentUpon>VehiculoU.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -204,7 +451,33 @@
     <Content Include="Boostrap\js\bootstrap.esm.min.js.map" />
     <Content Include="Boostrap\js\bootstrap.js.map" />
     <Content Include="Boostrap\js\bootstrap.min.js.map" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="packages.config" />
+    <Content Include="Vista\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <None Include="Vista\DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Vista\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Include="Vista\DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Content>
+    <None Include="Vista\DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Vista\DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Content>
+    <Content Include="Vista\Site1.Master" />
+    <Content Include="Vista\Site2.Master" />
+    <Content Include="Vista\Site3.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -212,7 +485,14 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Vista\Reportes\Report1.rdlc" />
+    <EmbeddedResource Include="Vista\Reportes\Report2.rdlc" />
+    <EmbeddedResource Include="Vista\Reportes\Report3.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
