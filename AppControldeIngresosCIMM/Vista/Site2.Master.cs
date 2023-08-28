@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace AppControldeIngresosCIMM.Vista
 {
-    public partial class Ingreso : System.Web.UI.Page
+    public partial class Site2 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

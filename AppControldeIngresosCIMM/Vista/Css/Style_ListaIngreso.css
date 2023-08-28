@@ -1,0 +1,22 @@
+﻿.center-container {
+    margin: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .center-container .Fecha {
+        margin-right: 10px; /* Ajusta el valor del margen derecho según sea necesario */
+    }
+
+.center-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}

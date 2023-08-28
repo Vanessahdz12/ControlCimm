@@ -8,22 +8,22 @@ using System.Web.UI.WebControls;
 
 namespace AppControldeIngresosCIMM.Vista
 {
-    public partial class RegistroProgramas : System.Web.UI.Page
+    public partial class RegistroPrograma : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnAgregar_ServerClick(object sender, EventArgs e)
+        protected void BtnRegistrar_ServerClick(object sender, EventArgs e)
         {
-            string nombre = txtNombre.Value;
-            string ficha = txtFicha.Value;
+            string nombre = TxtPrograma.Text;
+            string ficha = txtFicha.Text;
             string descripcion = txtDescripcion.Value;
-            
+
             ClProgramaL objprograma = new ClProgramaL();
             string insert = objprograma.mtdRegistrarPrograma(nombre, ficha, descripcion);
-            if (insert !="")
+            if (insert != "")
             {
                 string script = @"<script> swal({ title: '¡Envio Exitoso!',
                               text: 'Registro exitoso', type: 'success',
@@ -33,6 +33,5 @@ namespace AppControldeIngresosCIMM.Vista
                 ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", script, false);
             }
         }
-        
     }
 }
