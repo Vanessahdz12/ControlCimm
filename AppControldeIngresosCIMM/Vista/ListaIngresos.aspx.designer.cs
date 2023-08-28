@@ -11,17 +11,8 @@ namespace AppControldeIngresosCIMM.Vista
 {
 
 
-    public partial class ListaIngresoVehicular
+    public partial class ListaIngresos
     {
-
-        /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl form1;
 
         /// <summary>
         /// Control ddlRol.
@@ -42,31 +33,40 @@ namespace AppControldeIngresosCIMM.Vista
         protected global::System.Web.UI.WebControls.Button btnBuscar;
 
         /// <summary>
-        /// Control RbPeatonal.
+        /// Control txtFicha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RbPeatonal;
+        protected global::System.Web.UI.WebControls.TextBox txtFicha;
 
         /// <summary>
-        /// Control RbVehicular.
+        /// Control btnBuscarFicha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton RbVehicular;
+        protected global::System.Web.UI.WebControls.Button btnBuscarFicha;
 
         /// <summary>
-        /// Control btnBuscarPorteria.
+        /// Control btnGenerarReporte.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnBuscarPorteria;
+        protected global::System.Web.UI.WebControls.Button btnGenerarReporte;
+
+        /// <summary>
+        /// Control btnActualizarTabla.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnActualizarTabla;
 
         /// <summary>
         /// Control gvLista.
@@ -85,14 +85,5 @@ namespace AppControldeIngresosCIMM.Vista
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMensaje;
-
-        /// <summary>
-        /// Control btnGenerarReporte.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnGenerarReporte;
     }
 }

@@ -11,7 +11,7 @@ namespace AppControldeIngresosCIMM.Vista
 {
 
 
-    public partial class ListaIngresoVehicPeatonal
+    public partial class ListaIngresoPpeatonal
     {
 
         /// <summary>

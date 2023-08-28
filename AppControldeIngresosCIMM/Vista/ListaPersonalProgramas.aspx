@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vista/Site3.Administrador" AutoEventWireup="true" CodeBehind="ListaPersonalPrograma.aspx.cs" Inherits="AppControldeIngresosCIMM.Vista.ListaPersonalPrograma" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vista/Site3.Master" AutoEventWireup="true" CodeBehind="ListaPersonalProgramas.aspx.cs" Inherits="AppControldeIngresosCIMM.Vista.ListaPersonalProgramas1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Recursos/DataTables/datatables.css" rel="stylesheet" />

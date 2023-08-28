@@ -11,25 +11,34 @@ namespace AppControldeIngresosCIMM.Vista
 {
 
 
-    public partial class RecuperarContraseña
+    public partial class ListaDeProgramas
     {
 
         /// <summary>
-        /// Control txtEmail.
+        /// Control txtNombrePrograma.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtNombrePrograma;
 
         /// <summary>
-        /// Control btnEnviar.
+        /// Control txtFicha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnEnviar;
+        protected global::System.Web.UI.WebControls.TextBox txtFicha;
+
+        /// <summary>
+        /// Control txtDescripcion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcion;
     }
 }

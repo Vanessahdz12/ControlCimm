@@ -264,17 +264,20 @@
     <Content Include="Vista\Css\Estilos_RegistroPrograma.css" />
     <Content Include="Vista\Css\Ingreso.css" />
     <Content Include="Vista\Css\Style_ListaIngreso.css" />
-    <Content Include="Vista\DetallesVehiculo.aspx" />
+    <Content Include="Vista\DetallesVehiculos.aspx" />
     <Content Include="Vista\js\JavaScript_PersonalPrograma.js" />
     <Content Include="Vista\js\JavaScript_Programas.js" />
-    <Content Include="Vista\ListaIngreso.aspx" />
-    <Content Include="Vista\ListaIngresoPeatonal.aspx" />
+    <Content Include="Vista\ListaDeProgramas.aspx" />
+    <Content Include="Vista\ListaDetalladaVehiculos.aspx" />
+    <Content Include="Vista\ListaIngreoPVehicular.aspx" />
     <Content Include="Vista\listaingresopersonal.aspx" />
-    <Content Include="Vista\ListaIngresoSalidaArticulos.aspx" />
-    <Content Include="Vista\ListaIngresoVehicular.aspx" />
-    <Content Include="Vista\ListaPersonalPrograma.aspx" />
+    <Content Include="Vista\ListaIngresoPpeatonal.aspx" />
+    <Content Include="Vista\ListaIngresos.aspx" />
+    <Content Include="Vista\ListaIngresoSalidaArticulo.aspx" />
+    <Content Include="Vista\ListaIngresoSalidaPersonal.aspx" />
+    <Content Include="Vista\ListaPersonalProgramas.aspx" />
     <Content Include="Vista\ListaProgramas.aspx" />
-    <Content Include="Vista\RecuperarContraseña.aspx" />
+    <Content Include="Vista\RecuperarContraseñaa.aspx" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.css" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap.min.css" />
     <Content Include="Vista\Recursos\DataTables\DataTables-1.13.4\css\dataTables.bootstrap4.css" />
@@ -323,7 +326,6 @@
     <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.js" />
     <Content Include="Vista\Recursos\jQuery-3.6.0\jquery-3.6.0.min.js" />
     <Content Include="Vista\RegistroPrograma.aspx" />
-    <Content Include="Vista\RegistroProgramas.aspx" />
     <Content Include="Vista\Reportes\Reporte.aspx" />
     <Content Include="Vista\Reportes\ReporteIngresoPeatonal.aspx" />
     <Content Include="Vista\Reportes\ReporteIngresoVehicular.aspx" />
@@ -360,26 +362,33 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Vista\DetallesVehiculo.aspx.cs">
-      <DependentUpon>DetallesVehiculo.aspx</DependentUpon>
+    <Compile Include="Vista\DetallesVehiculos.aspx.cs">
+      <DependentUpon>DetallesVehiculos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\DetallesVehiculo.aspx.designer.cs">
-      <DependentUpon>DetallesVehiculo.aspx</DependentUpon>
+    <Compile Include="Vista\DetallesVehiculos.aspx.designer.cs">
+      <DependentUpon>DetallesVehiculos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\ListaIngreso.aspx.cs">
-      <DependentUpon>ListaIngreso.aspx</DependentUpon>
+    <Compile Include="Vista\ListaDeProgramas.aspx.cs">
+      <DependentUpon>ListaDeProgramas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\ListaIngreso.aspx.designer.cs">
-      <DependentUpon>ListaIngreso.aspx</DependentUpon>
+    <Compile Include="Vista\ListaDeProgramas.aspx.designer.cs">
+      <DependentUpon>ListaDeProgramas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\ListaIngresoPeatonal.aspx.cs">
-      <DependentUpon>ListaIngresoPeatonal.aspx</DependentUpon>
+    <Compile Include="Vista\ListaDetalladaVehiculos.aspx.cs">
+      <DependentUpon>ListaDetalladaVehiculos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\ListaIngresoPeatonal.aspx.designer.cs">
-      <DependentUpon>ListaIngresoPeatonal.aspx</DependentUpon>
+    <Compile Include="Vista\ListaDetalladaVehiculos.aspx.designer.cs">
+      <DependentUpon>ListaDetalladaVehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngreoPVehicular.aspx.cs">
+      <DependentUpon>ListaIngreoPVehicular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\ListaIngreoPVehicular.aspx.designer.cs">
+      <DependentUpon>ListaIngreoPVehicular.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\listaingresopersonal.aspx.cs">
       <DependentUpon>listaingresopersonal.aspx</DependentUpon>
@@ -388,26 +397,40 @@
     <Compile Include="Vista\listaingresopersonal.aspx.designer.cs">
       <DependentUpon>listaingresopersonal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\ListaIngresoSalidaArticulos.aspx.cs">
-      <DependentUpon>ListaIngresoSalidaArticulos.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresoPpeatonal.aspx.cs">
+      <DependentUpon>ListaIngresoPpeatonal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\ListaIngresoSalidaArticulos.aspx.designer.cs">
-      <DependentUpon>ListaIngresoSalidaArticulos.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresoPpeatonal.aspx.designer.cs">
+      <DependentUpon>ListaIngresoPpeatonal.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\ListaIngresoVehicular.aspx.cs">
-      <DependentUpon>ListaIngresoVehicular.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresos.aspx.cs">
+      <DependentUpon>ListaIngresos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\ListaIngresoVehicular.aspx.designer.cs">
-      <DependentUpon>ListaIngresoVehicular.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresos.aspx.designer.cs">
+      <DependentUpon>ListaIngresos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\ListaPersonalPrograma.aspx.cs">
-      <DependentUpon>ListaPersonalPrograma.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresoSalidaArticulo.aspx.cs">
+      <DependentUpon>ListaIngresoSalidaArticulo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\ListaPersonalPrograma.aspx.designer.cs">
-      <DependentUpon>ListaPersonalPrograma.aspx</DependentUpon>
+    <Compile Include="Vista\ListaIngresoSalidaArticulo.aspx.designer.cs">
+      <DependentUpon>ListaIngresoSalidaArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaPersonal.aspx.cs">
+      <DependentUpon>ListaIngresoSalidaPersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\ListaIngresoSalidaPersonal.aspx.designer.cs">
+      <DependentUpon>ListaIngresoSalidaPersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\ListaPersonalProgramas.aspx.cs">
+      <DependentUpon>ListaPersonalProgramas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\ListaPersonalProgramas.aspx.designer.cs">
+      <DependentUpon>ListaPersonalProgramas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\ListaProgramas.aspx.cs">
       <DependentUpon>ListaProgramas.aspx</DependentUpon>
@@ -416,12 +439,12 @@
     <Compile Include="Vista\ListaProgramas.aspx.designer.cs">
       <DependentUpon>ListaProgramas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Vista\RecuperarContraseña.aspx.cs">
-      <DependentUpon>RecuperarContraseña.aspx</DependentUpon>
+    <Compile Include="Vista\RecuperarContraseñaa.aspx.cs">
+      <DependentUpon>RecuperarContraseñaa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Vista\RecuperarContraseña.aspx.designer.cs">
-      <DependentUpon>RecuperarContraseña.aspx</DependentUpon>
+    <Compile Include="Vista\RecuperarContraseñaa.aspx.designer.cs">
+      <DependentUpon>RecuperarContraseñaa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\RegistroPrograma.aspx.cs">
       <DependentUpon>RegistroPrograma.aspx</DependentUpon>
@@ -429,13 +452,6 @@
     </Compile>
     <Compile Include="Vista\RegistroPrograma.aspx.designer.cs">
       <DependentUpon>RegistroPrograma.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Vista\RegistroProgramas.aspx.cs">
-      <DependentUpon>RegistroProgramas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Vista\RegistroProgramas.aspx.designer.cs">
-      <DependentUpon>RegistroProgramas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vista\Reportes\Reporte.aspx.cs">
       <DependentUpon>Reporte.aspx</DependentUpon>

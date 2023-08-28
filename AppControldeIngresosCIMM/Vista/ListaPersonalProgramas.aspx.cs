@@ -11,7 +11,7 @@ using System.Web.UI.WebControls;
 
 namespace AppControldeIngresosCIMM.Vista
 {
-    public partial class ListaPersonalPrograma : System.Web.UI.Page
+    public partial class ListaPersonalProgramas1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -76,5 +76,7 @@ namespace AppControldeIngresosCIMM.Vista
             int resultado = objPersonal.mtdEliminar(idPersonal);
             return string.Empty;
         }
+
     }
 }
+

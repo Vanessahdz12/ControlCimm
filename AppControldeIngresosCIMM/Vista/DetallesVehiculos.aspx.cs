@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace AppControldeIngresosCIMM.Vista
 {
-    public partial class DetallesVehiculo : System.Web.UI.Page
+    public partial class DetallesVehiculos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -17,7 +17,6 @@ namespace AppControldeIngresosCIMM.Vista
             List<ClPersonalE> lista = objPersonal.mtdDetallesVehiculo();
             gvLista.DataSource = lista;
             gvLista.DataBind();
-
         }
     }
 }

@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 namespace AppControldeIngresosCIMM.Vista
 {
-    public partial class ListaIngresoVehicular : System.Web.UI.Page
+    public partial class ListaIngreoPVehicular : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -80,37 +80,6 @@ namespace AppControldeIngresosCIMM.Vista
             return dataTable;
         }
 
-        protected void btnGenerarReporte_Click(object sender, EventArgs e)
-        {
-            // Obtener los datos de la variable de sesión
-            List<ClPersonalE> listaPers = (List<ClPersonalE>)Session["Personal"];
 
-            //Convertir los datos a DataTable si es necesario
-            DataTable dtPersonal = ConvertirTabla(listaPers);
-
-            // Almacenar los datos en una variable de sesión (opcional)
-            Session["ReportePersonal"] = dtPersonal;
-
-            // Redireccionar a la página de informe
-            Response.Redirect("Reportes/ReporteIngresoVehicular.aspx");
-        }
-
-        protected void btnBuscarPorteria_Click(object sender, EventArgs e)
-        {
-            string porteria = "";
-            if (RbPeatonal.Checked)
-            {
-                porteria = "1";
-            }
-            else if (RbVehicular.Checked)
-            {
-                porteria = "2";
-            }
-            ClPersonalL objPersonal = new ClPersonalL();
-            List<ClPersonalE> ListaPersonal = objPersonal.mtdBuscarVehiculosPorteria("", porteria);
-            gvLista.DataSource = ListaPersonal;
-            gvLista.DataBind();
-            Session["Personal"] = ListaPersonal;
-        }
     }
 }

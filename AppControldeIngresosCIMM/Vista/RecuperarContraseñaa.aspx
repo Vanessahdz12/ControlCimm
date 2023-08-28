@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vista/Site2.Master" AutoEventWireup="true" CodeBehind="RecuperarContraseña.aspx.cs" Inherits="AppControldeIngresosCIMM.Vista.RecuperarContraseña" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Vista/Site1.Master" AutoEventWireup="true" CodeBehind="RecuperarContraseñaa.aspx.cs" Inherits="AppControldeIngresosCIMM.Vista.RecuperarContraseñaa" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Css/Estilos_recuperaContraseña.css" rel="stylesheet" />
