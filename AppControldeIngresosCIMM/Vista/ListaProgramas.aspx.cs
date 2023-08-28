@@ -66,7 +66,7 @@ namespace AppControldeIngresosCIMM.Vista
         public static string mtdEliminar(object formData)
         {
             ClProgramaL objprograma = new ClProgramaL();
-            ClProgramaE objEliminarPrograma= new ClProgramaE();
+            ClProgramaE objEliminarPrograma = new ClProgramaE();
 
             var data = formData as IDictionary<string, object>;
             objEliminarPrograma.idPrograma = int.Parse(data["idPrograma"].ToString());
@@ -74,5 +74,6 @@ namespace AppControldeIngresosCIMM.Vista
             int resultado = objprograma.mtdEliminar(objEliminarPrograma);
             return string.Empty;
         }
+
     }
 }
